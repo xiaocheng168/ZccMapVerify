@@ -1,0 +1,17 @@
+#每次进服都需要验证?
+#关闭,进服验证一次后不再验证
+join_1_Verify: true
+
+#验证倒计时时间 需开启 单位(秒) 0为关闭 从进服后开始验证
+Time_Out:
+  timeOutKick: true
+  interval: 30
+#语言文件
+lang:
+  perfix: "&c[&6CC图形验证&c]"
+  time-out: "&c验证超时,请在%interval%内验证完！"
+  verify-ok: "&a验证成功,你现在可以正常游玩了"
+  verify-not: "&a验证码错误,请看清楚！"
+  right-title: "&6请右键手上地图查看验证码！"
+#自动检测更新
+Auto-Updata: true

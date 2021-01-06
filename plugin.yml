@@ -1,0 +1,15 @@
+name: ZccMapVerify
+main: cn.minecraft.Zcc.MapVerify.Main
+version: 1.1
+api-version: 1.13
+description: "§cZcc图形验证插件 欢迎使用哦qwq"
+author: Zcc
+website: "https://www.showdoc.com.cn/ZccMapVerify"
+softdepend:
+  - AuthMe
+commands:
+  zccmapverify:
+    description: "Zcc图形验证指令,没啥用qwq"
+    aliases:
+      - zmv
+      - zv
